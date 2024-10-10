@@ -1,0 +1,304 @@
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav>h3 {
+    color: #0D1321;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.btn {
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 24px;
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+}
+
+.btn-2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 24px;
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    background: #0D1321
+}
+
+/* shared style */
+.colors {
+    color: #0D1321;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    gap: 25px;
+}
+
+.section-one>h2 {
+    color: #0D1321;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+}
+
+.section-one>p {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.backpic {
+    background-image: url("../assets/Hero-bg.png");
+}
+
+.section-two-head>h3 {
+    color: #0D1321;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.mid-div {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #0d132105;
+    border-radius: 16px;
+    margin-top: 80px;
+    padding: 50px 100px;
+
+}
+
+.section-two-head {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.section-two-head>p,
+.skill-p {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+/* .section-two-head{
+    width: 80%;
+    margin-top:0px;
+    background-color: aqua;
+} */
+.btn-more {
+    background: none;
+    color: #0D1321;
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid #0d1321b3;
+    padding: 15px 25px;
+}
+
+.section-three>h4 {
+    color: #0d1321b3;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.section-three>p {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.boxes {
+    display: flex;
+    gap: 400px;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 16px;
+    padding: 50px;
+}
+
+.section-four {
+    display: grid;
+    gap: 32px;
+}
+
+.boxes-reverse {
+    flex-direction: row-reverse;
+}
+
+.iframe-v {
+    border-radius: 16px;
+    margin: 0 auto;
+    padding: 32px;
+    border: 1px solid #0d132133;
+}
+
+.extra-head {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-five {
+    display: grid;
+    justify-items: center;
+}
+
+.section-six {
+    margin-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.skills-box>h4,
+.skills-box2>h4,
+.skills-box3>h4 {
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.skills-box {
+    background-color: #ff4c1e0d;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.skills-box2 {
+    background-color: #004ce80d;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.skills-box3 {
+    background-color: #ffdf000d;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.skills-box>p>a,
+.react-box>p>a {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.box-container {
+    display: flex;
+    gap: 20px;
+}
+
+.section-seven {
+    width: 80%;
+    margin: 100px auto 0px;
+}
+
+.react-box>h4 {
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.react {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid #0d132126;
+    background: #FFF;
+    padding: 40px;
+}
+
+.section-nine {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 45px;
+}
+
+.input-form>h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.input-form {
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   padding: 60px;
+}
+
+.footer-section {
+    width: 80%;
+    margin: 50px auto 0;
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../assets/handshake.jpg") lightgray 50% / cover no-repeat;
+}
+.input-form > p {
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+}
+
+.form-text {
+    padding: 20px 100px 20px 20px;
+border-radius: 8px;
+color: rgba(13, 19, 33, 0.40);
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+    width: 90%; /* Or any other percentage or fixed width value */
+    max-width: 100%; /* Ensure it doesn't exceed the container width */
+}
+
+
+.submit{
+    border-radius: 8px;
+background: #FFF;
+color: #0D1321;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+padding: 17px 20px;
+cursor: pointer;
+}
+.form-sub{
+    display: flex;
+    gap: 15px;
+}
