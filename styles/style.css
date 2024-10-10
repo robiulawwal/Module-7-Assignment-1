@@ -155,8 +155,7 @@ nav>h3 {
 .iframe-v {
     border-radius: 16px;
     margin: 0 auto;
-    padding: 32px;
-    border: 1px solid #0d132133;
+    
 }
 
 .extra-head {
@@ -182,7 +181,11 @@ nav>h3 {
     font-size: 24px;
     font-weight: 800;
 }
-
+.iframe-box{
+    border-radius: 16px;
+    padding: 32px;
+    border: 1px solid #0d132133;
+}
 .skills-box {
     background-color: #ff4c1e0d;
     border-radius: 16px;
@@ -298,10 +301,12 @@ nav>h3 {
     padding: 17px 20px;
     cursor: pointer;
 }
-.sec-last{
+
+.sec-last {
     background-color: #0d132108;
     margin-top: 80px;
 }
+
 .form-sub {
     display: flex;
     justify-content: center;
@@ -310,20 +315,22 @@ nav>h3 {
 }
 
 .foot>h3 {
-    
+
     color: #0D1321;
     font-size: 20px;
     font-weight: 600;
 
 }
-.socials{
+
+.socials {
     display: flex;
     gap: 24px;
 }
-.foot-last{
+
+.foot-last {
     width: 80%;
     margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
